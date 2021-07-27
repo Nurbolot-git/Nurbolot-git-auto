@@ -264,3 +264,55 @@ body {
   padding: 10px 100px 30px;
   margin-top: 43px;
 }
+.carousel__inner {
+  margin: 0 -7px;
+}
+.carousel__item {
+  color: var(--primary);
+  margin: 0 7px;
+}
+.carousel__item-box {
+  border: 1px solid var(--gray);
+  padding: 6px 6px 16px 6px;
+  text-align: center;
+}
+.carousel__item-box:hover {
+  color: var(--white);
+  background-color: var(--primary);
+  border-color: var(--primary);
+  transition: all 0.5s;
+}
+.carousel__item-img {
+  max-width: 100%;
+}
+.carousel__item-title {
+  margin-top: 18px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+.carousel__itme-text {
+  margin: 0 0 16px 0;
+}
+.carousel .slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  list-style: none;
+}
+
+.carousel .slick-dots button {
+  font-size: 0;
+  border: none;
+  margin: 0 10px;
+  width: 50px;
+  height: 1px;
+  background-color: var(--gray);
+}
+.carousel .slick-active button {
+  height: 3px;
+  background-color: var(--primary);
+  transition: all 0.2s;
+}
